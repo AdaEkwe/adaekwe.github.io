@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+
+        <title>
+            Adaeze Ekwe's Portfolio
+        </title>
+
+        <main>
+            <header>
+                <nav id= "portfolioTopnav" class= "topnav">
+                    <body>
+                        <a href="#about">About</a> 
+                        <a href="#skills">Skills</a> 
+                        <a href="#accomplishments">Accomplishments</a> 
+                        <a href="#contact">Contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+                </nav>    
+                <h1>Hello! I am Adaeze Ekwe.</h1>
+
+            </header>
+
+            <div id= "aboutsection">
+                <a href="https://www.linkedin.com/in/adaeze-precious-ekwe" target="_blank">
+                    <figure>
+                        <img src="Adaeze_Ekwe.png" width="300" height="200" alt="A portrait of Adaeze Ekwe."/></a>
+                    </figure>
+
+                <h2 id= "About" class= "heading uppercase">About</h2>
+                <p>
+                    I am an enthusiastic and passionate research scientist who is fascinated by the use of <strong>gene and cell immunotherapeutics</strong> to improve outcomes for patients. I aspire to a career where I can research and develop better targeted immunotherapies, and <em>translate</em> those discoveries into useful products for patients.
+                </p>
+
+                <br>
+                <br>
+
+                <h3 id= "Skills">Skills</h3>
+                <h4>Research Skills</h4>
+                <ul class= "list">
+                    <li>Experimental design</li>
+                    <li>Data analysis</li>
+                    <li>Data interpretation</li>
+                    <li>Data presentation</li>
+                    <li>Troubleshooting</li>
+                    <li>Problem solving</li>
+                    <li>Oral communication</li>
+                    <li>Written communication</li>
+                </ul>
+                <h4>Interpersonal Skills</h4>
+                <ul class= "list">
+                    <li>Resilience</li>
+                    <li>Flexibility</li>
+                    <li>Conflict management</li>
+                    <li>Project management</li>
+                    <li>Willingness to learn</li>
+                    <li>Collaboration and teamwork</li>
+                    <li>Leadership</li>
+                </ul>
+                <h4>Technical Skills</h4>
+                <ul class= "list">
+                    <li>Sterile and aseptic technique</li>
+                    <li>T cell isolation and manipulation</li>
+                    <li>T cell based assays</li>
+                    <li>Multiparametric cell sorting</li>
+                    <li>Multicolor flow cytometry</li>
+                    <li>Viral gene delivery</li>
+                    <li>Data analysis on FACSDiva, FlowJo, GraphPad Prism, Excel</li>
+                </ul>
+            </div>
+            <div id= "accomplishmentsection">
+                <h2 id= "Accomplishments">Accomplishment</h2>
+                <table>
+                <tr>
+                    <th scope="col">Publications</th>
+                    <th scope="col">Awards</th>
+                    <th scope="col">Presentations</th>
+                </tr> 
+                <tr>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>32</td>
+                </tr>
+                </table>
+
+                <h3>Coding Examples</h3>
+                <a href="quiz.html" target="_blank">Take the Portfolio Quiz</a>
+
+            </div>
+            <div id= "contactsection">
+                <h2 id= "Contact" class= "contactform">Contact</h2>
+                <a href="https://www.linkedin.com/in/adaeze-precious-ekwe" target="_blank">LinkedIn</a>
+                <br>
+                <br>
+                <form>
+                <label for="name">Name*:</label>
+                <br>
+                <input type="text" name="name" id="name" required>  
+
+                <br>
+                <br>
+
+                <label for="email">Email*:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+                <br>
+                <br>
+
+                <label for="mobile">Mobile (optional)</label>
+                <br>
+                <input type="number" name="mobile" id="mobile" pattern="[0-9">
+
+                <br>
+                <br>
+
+                <label for="message">Leave your message below*</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="30" required>
+
+                </textarea>
+
+                <br>
+                <br>
+
+                <input type="submit">
+                </form>
+            </div>
+        </main>
+        <script src="./nav.js"></script>
+            </body>
+    </head>
+</html>
